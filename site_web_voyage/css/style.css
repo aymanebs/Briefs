@@ -404,7 +404,10 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
+body#toursid{
+	background-image: url(../img/sea.jpg);
 
+}
 @media (max-width: 1400px){
 	header{
 		padding: 17px 3%;
