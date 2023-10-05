@@ -404,9 +404,36 @@ header.sticky{
 	font-size: 14px;
 	letter-spacing: 2px;
 }
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 body#toursid{
 	background-image: url(../img/sea.jpg);
 
+}
+body#contactid{
+	background-image: url(../img/sea.jpg);
+}
+.contact{
+	text-align: center;
+	
+	
+}
+input,
+textarea{
+	width:100%;
+	padding:10px 20px;
+	margin:5px 2px;
+	border: 2px solid rgb(15, 4, 60);
+    border-radius: 4px;
+	background:transparent;
+	outline:none;
+}
+textarea{
+	height:150px;
+	resize: none;
+
+}
+label{
+	margin:5px 2px;
 }
 @media (max-width: 1400px){
 	header{
